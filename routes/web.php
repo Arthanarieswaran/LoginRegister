@@ -26,3 +26,8 @@ Route::controller(LoginRegisterController::class)->group(function() {
     Route::get('/dashboard', 'dashboard')->name('dashboard');
     Route::post('/logout', 'logout')->name('logout');
 });
+
+Route::get('users_details',function(){
+    $users=DB::table('users')->get();
+    return view('/auth/users_details',['users'=>$users]);
+});

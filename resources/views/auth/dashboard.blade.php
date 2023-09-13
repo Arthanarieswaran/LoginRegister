@@ -9,13 +9,22 @@
             <div class="card-body">
                 @if ($message = Session::get('success'))
                     <div class="alert alert-success">
-                        {{ $message }}
+                        <h1>id : {{ Auth::user()->id }}<h1>
+                       <h1>Name : {{ Auth::user()->name }}<h1>
+                        <h1>Email : {{ Auth::user()->email }}<h1>
                     </div>
                 @else
                     <div class="alert alert-success">
-                        You are logged in!
+                        <h1>id : {{ Auth::user()->id }}<h1>
+                            <h1>Name : {{ Auth::user()->name }}<h1>
+                             <h1>Email : {{ Auth::user()->email }}<h1>
                     </div>       
-                @endif                
+                @endif  
+                
+                    <div>
+                        <a href="{{ url('users_details') }}">users</a>
+                    </div>
+
             </div>
         </div>
     </div>    

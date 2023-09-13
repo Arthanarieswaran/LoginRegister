@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="{{ asset('css.navbar.css') }}">
+
+        <nav>
+    <a href="#">No mask</a>
+    <ul class="list">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="search">Search</button>
+    <button class="menu">Menu</button>
+  </nav>
+  <nav class="mask">
+    <a href="#">Mask with linear-gradient</a>
+    <ul class="list">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="search">Search</button>
+    <button class="menu">Menu</button>
+  </nav>
+  <nav class="mask-pattern">
+    <a href="#">Mask with linear-gradient and repeated image</a>
+    <ul class="list">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="search">Search</button>
+    <button class="menu">Menu</button>
+  </nav>
+  <img src="https://images.unsplash.com/photo-1629812456605-4a044aa38fbc?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc3ODI1OTg&ixlib=rb-1.2.1&q=80" alt="">
